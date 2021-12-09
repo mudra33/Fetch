@@ -1,0 +1,37 @@
+/* body {
+  background-image: linear-gradient(to bottom, #ff3939 0%, #09ee70 100%);
+} */
+
+.user-list {
+  display: grid;
+  place-content: center;
+}
+
+.user-container {
+  background: white;
+  padding: 16px;
+  margin: 16px;
+  max-width: 450px;
+
+  display: flex;
+  gap: 16px;
+
+  border-radius: 16px;
+  transition: 0.2s all;
+}
+
+.user-container:hover {
+  color: rebeccapurple;
+  transform: scale(1.1);
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.user-name {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
